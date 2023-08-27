@@ -1,0 +1,70 @@
+.check-box-table {
+    border: 1px solid #d8cfcf;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+    border-radius: 10px !important;
+}
+
+/* YourComponent.css */
+
+.pagination {
+    margin: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Number {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Number span {
+    display: inline-block;
+    font-weight: 550;
+    padding: 14px 22px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Number span:hover {
+    background-color: #0f2047;
+    color: #ffffff;
+}
+
+.previous-btn,
+.next-btn {
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #0f2047;
+    cursor: pointer;
+    font-weight: 550;
+    border: 0.5px solid #b3afaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.previous-btn:hover,
+.next-btn:hover {
+    background-color: #0f2047;
+    color: #ffffff;
+}
+
+.next-btn {
+    margin-left: auto;
+}
+
+.previous-btn {
+    margin-right: auto;
+}

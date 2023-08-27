@@ -1,0 +1,88 @@
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 82vh;
+    background-color: #ffffff;
+    border: 1px solid #d8cfcf;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+    margin: 10px;
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+
+.user-item {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+
+
+.icon {
+    margin-right: 15px;
+    fill: #747373;
+}
+
+#sidebar .components {
+    padding: 0;
+    list-style: none;
+}
+
+.user-item {
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #2e2e2e;
+    display: block;
+
+}
+
+.active,
+.user-item:hover {
+    background-color: #bfdef8;
+    border-radius: 10px;
+
+}
+
+
+.wrapper.active #sidebar {
+    min-width: 0;
+    max-width: 0;
+    display: none;
+}
+
+.toggle-button {
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+
+.list-unstyled.components.active {
+    display: block;
+}
+
+#sidebar.active {
+    min-width: 250px;
+    max-width: 250px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: block;
+    }
+
+    .list-unstyled.components.active {
+        display: none;
+    }
+
+
+}
