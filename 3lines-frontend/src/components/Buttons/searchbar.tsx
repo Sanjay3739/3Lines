@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './status.css';
-import { ReactComponent as DownArrowIcon } from '../Buttons/downarrow.svg';
 import SearchIcon from '@mui/icons-material/Search';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import ControlPointIcon from '@mui/icons-material/ControlPoint';
@@ -22,7 +21,7 @@ const StatusDropdown: React.FC = () => {
             </div>
             <hr className="solid" />
             <div className='d-flex'>
-                <div className="sidebar-contante">
+                <div className="sidebar-contents">
                     <Sidebar />
                 </div>
                 <div className="table">
@@ -43,12 +42,14 @@ const StatusDropdown: React.FC = () => {
                         </div>
 
                         <div className="dropdown">
-                            <select className="dropbtn" value={selectedStatus} onChange={handleStatusChange}> <DownArrowIcon />
+                            <label htmlFor="status" className="sr-only d-none">Select</label>
+                            <select id="status" className="drop-btn" value={selectedStatus} onChange={handleStatusChange}>
                                 <option className='dropdown-content' value="">Status</option>
                                 <option className='dropdown-content' value="1">Active</option>
                                 <option className='dropdown-content' value="0">Inactive</option>
                             </select>
                         </div>
+
                     </div>
                     <div className="tables"><Tables /></div>
                     <div className="d-flex" style={{ justifyContent: 'space-between' }}>

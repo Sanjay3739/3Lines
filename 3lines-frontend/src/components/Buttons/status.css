@@ -7,8 +7,8 @@
 }
 
 .menu-name {
-    font-size: 45px;
-    font-weight: 50;
+    font-size: 40px;
+    font-weight: 150;
     font-family: sans-serif;
 }
 
@@ -35,7 +35,7 @@
 
 .save-cancel-btn>.cancel-btn {
     color: rgb(27, 25, 56);
-    padding-top: 13px;
+    padding-top: 3px;
     border-radius: 10px;
     width: 100px;
     font-weight: 550;
@@ -65,7 +65,7 @@ hr.solid {
 }
 
 /* Drop-Down Menu */
-.dropdown>.dropbtn {
+.dropdown>.drop-btn {
     border-radius: 10px;
     width: 300px;
     padding: 10px;

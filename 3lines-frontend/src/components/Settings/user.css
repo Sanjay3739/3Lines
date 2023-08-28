@@ -1,0 +1,120 @@
+.line {
+    width: 1150px
+}
+
+.add-user-details-container1,
+.add-user-details-container2 {
+    width: 825px;
+    margin: 15px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border: 1px solid #d8cfcf;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+}
+
+.add-user-details-container1 {
+    min-height: 400px;
+}
+
+.add-user-details-container2 {
+    min-height: 301px;
+}
+
+.custom-toggle .form-check-input {
+    width: 36px;
+    height: 20px;
+}
+
+.custom-toggle .form-check-input:checked {
+    background-color: #007bff;
+}
+
+.create-user-container {
+    display: grid;
+    place-items: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.account-settings {
+    text-align: start !important;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 450;
+
+}
+
+
+.image-container {
+    width: 90px;
+    height: 90px;
+}
+
+.bold-underline {
+    text-decoration: underline;
+    color: #F04438;
+    font-weight: bold;
+}
+
+.user-profile-change-btn {
+    background-color: #1DA2EF;
+    color: #ffff;
+}
+
+.user-profile-change-btn:hover {
+    background-color: #1DA2EF;
+    color: #ffff;
+}
+
+.file-label {
+    display: grid;
+    place-items: center;
+    width: 765px;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+
+}
+
+.file-label>input {
+    display: none;
+}
+
+.file-label> .upload-text {
+    color: #475467;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-label>.upload-text>p:first-child {
+    margin-left: 10px;
+}
+.file-label>.upload-text>p>span{
+    color: #1782BF;
+}
+label {
+    font-Weight: 500;
+    Size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.module-box{
+    min-width: 402px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+    min-height: 213px;
+}
+.module-toggle{
+    display: flex;
+    justify-content: space-between;
+}
+.module-box > .p-4 > .form-switch{
+    padding-left: 0px;
+}
