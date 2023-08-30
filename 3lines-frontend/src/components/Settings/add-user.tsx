@@ -1,6 +1,8 @@
 import React from 'react';
 import './user.css';
 import UserImage from './user.png';
+import Button from '@mui/material/Button';
+
 const AddUser: React.FC = () => {
 
     return (
@@ -12,7 +14,7 @@ const AddUser: React.FC = () => {
             </div>
             <div className="create-user-container">
                 <hr className="solid mt-2 line" />
-                <div className='d-flex'>
+                <div className='user-box-data'>
                     <nav id="sidebar">
                         <div className="p-4">
                             <span className="static-words">
@@ -21,22 +23,22 @@ const AddUser: React.FC = () => {
                         </div>
                     </nav>
                     <form>
-                        <div className='container-fluid add-user-details-container1'>
-                            <div className="m-3">
-                                <span className='fs-4 font-weight-bold'>Personal Information</span>
+                        <div className='add-user-details-container1'>
+                            <div className="user-small-header">
+                                <span className='text-box'>Personal Information</span>
                                 <hr className="add-solid" />
                                 <div className="col-md-6 mb-4">
-                                    <div className="d-flex">
-                                        <div className="image-container me-4">
+                                    <div className="image-btn-box">
+                                        <div className="image-container">
                                             <img src={UserImage} alt="User" className="img-fluid" />
                                         </div>
-                                        <div className="d-flex flex-column mt-3">
-                                            <button type="button" className="user-profile-change-btn btn mb-2">Change</button>
+                                        <div className="btn-text-box">
+                                        <Button variant="contained">Change</Button>
                                             <span className='ms-2 bold-underline'>Remove</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="input-container">
                                     <div className="col-md-6">
                                         <div className="mb-3">
                                             <label htmlFor="firstName" className="form-label">First Name</label>
@@ -50,7 +52,7 @@ const AddUser: React.FC = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="input-container">
                                     <div className="col-md-6">
                                         <div className="mb-3">
                                             <label htmlFor="email" className="form-label">Email address</label>

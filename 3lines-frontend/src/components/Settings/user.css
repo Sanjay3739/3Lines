@@ -48,10 +48,7 @@
 }
 
 
-.image-container {
-    width: 90px;
-    height: 90px;
-}
+
 
 .bold-underline {
     text-decoration: underline;
@@ -85,7 +82,7 @@
     display: none;
 }
 
-.file-label> .upload-text {
+.file-label>.upload-text {
     color: #475467;
     display: flex;
     flex-direction: column;
@@ -94,27 +91,106 @@
 .file-label>.upload-text>p:first-child {
     margin-left: 10px;
 }
-.file-label>.upload-text>p>span{
+
+.file-label>.upload-text>p>span {
     color: #1782BF;
 }
+
 label {
     font-Weight: 500;
     Size: 14px;
     line-height: 20px;
     color: #344054;
 }
-.module-box{
-    min-width: 402px;
-    margin: 15px;
+
+
+
+
+
+
+
+/* modules */
+
+
+.module-body {
+    display: flex;
+}
+
+.module-box {
+    margin: 10px;
+    max-width: 402px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
     min-height: 213px;
 }
-.module-toggle{
+
+.module-box-container1,
+.module-box-container2 {
     display: flex;
     justify-content: space-between;
 }
-.module-box > .p-4 > .form-switch{
-    padding-left: 0px;
+
+.module-box-data {
+    padding: 20px;
+
+}
+
+.text-arrow-icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-icon-box {
+    padding: 20px;
+}
+
+.hr-line {
+    margin-top: 50px;
+}
+
+.module-toggle {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* add-user */
+
+.user-box-data {
+    display: flex;
+
+}
+
+.text-box {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-small-header {
+    margin: 20px;
+}
+
+.image-btn-box {
+    display: flex;
+}
+
+.image-container>img {
+    width: 90px;
+    height: 90px;
+}
+
+.btn-text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.btn-text-box>span {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.input-container{
+    display: flex;
 }
